@@ -1,0 +1,16 @@
+# Ignora todos os arquivos .log em qualquer lugar
+*.log
+
+# Ignora o arquivo .env (comum para variáveis de ambiente e segredos)
+# Acrescentar mais tarde o arquivo .env
+.env
+
+# Ignora arquivos de build de projetos .NET ou Java, por exemplo
+/bin
+/obj
+
+# Ignora o arquivo __pycache__
+__pycache__/
+
+# Ignora a pasta venv
+venv/
